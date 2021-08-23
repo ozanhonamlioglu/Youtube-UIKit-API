@@ -15,7 +15,7 @@ class HomeTableViewController: UITableViewController {
     var listData: [MainModel] = [MainModel]()
     
     let VideoCellReuseId = "videocell"
-    let StoryCellReuseId = "storycell"
+    let NewsCellReuseId = "newscell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class HomeTableViewController: UITableViewController {
     // MARK: - HANDLERS
     func xibCellRegisters() {
         tableView.register(UINib(nibName: "VideoCell", bundle: nil), forCellReuseIdentifier: VideoCellReuseId)
-        tableView.register(UINib(nibName: "StoryCell", bundle: nil), forCellReuseIdentifier: StoryCellReuseId)
+        tableView.register(UINib(nibName: "NewsCell", bundle: nil), forCellReuseIdentifier: NewsCellReuseId)
     }
     
     func observers() {
@@ -57,6 +57,10 @@ class HomeTableViewController: UITableViewController {
             videoCell.data = singleData
             return videoCell
             
+        case .news:
+            let newsCell = tableView.dequeueReusableCell(withIdentifier: NewsCellReuseId, for: indexPath) as! NewsCell
+            return newsCell
+            
         default:
             let cell = UITableViewCell(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
             return cell
@@ -70,6 +74,8 @@ class HomeTableViewController: UITableViewController {
         switch singleData.type {
         case .video:
             return 400
+        case .news:
+            return 500
         default:
             return 50
         }

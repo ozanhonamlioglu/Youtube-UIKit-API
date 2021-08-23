@@ -17,8 +17,6 @@ class VideoCell: UITableViewCell {
     @IBOutlet weak var details: UILabel!
     @IBOutlet weak var moreButton: UIButton!
     
-    
-    
     // MARK: - VARIABLES
     var data: MainModel? {
         willSet {
