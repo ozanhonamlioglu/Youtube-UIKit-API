@@ -1,12 +1,23 @@
 //
-//  StoryCell.swift
+//  StoryTableViewCell.swift
 //  Youtube-UIKit-API
 //
-//  Created by ozan honamlioglu on 11.08.2021.
+//  Created by ozy on 19.08.2021.
 //
 
 import UIKit
 
-class StoryCell: UICollectionViewCell {
+class StoryCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
     
 }
