@@ -9,20 +9,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--home-->
+        <!--Home-->
         <scene sceneID="ZLM-TY-rQI">
             <objects>
                 <tableViewController id="9UF-O8-rrI" customClass="HomeTableViewController" customModule="Youtube_UIKit_API" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bNm-x1-02J">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bNm-x1-02J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="Avu-by-S5y">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Avu-by-S5y" id="OYT-kl-cHK">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -32,15 +32,15 @@
                             <outlet property="delegate" destination="9UF-O8-rrI" id="Q9e-02-pll"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="home" id="wJY-LE-Ipd">
+                    <tabBarItem key="tabBarItem" title="Home" id="wJY-LE-Ipd">
                         <imageReference key="image" image="house" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BiA-aU-5uR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="741" y="248"/>
+            <point key="canvasLocation" x="1413" y="-1185"/>
         </scene>
-        <!--Item-->
+        <!--Library-->
         <scene sceneID="bbs-dF-TQH">
             <objects>
                 <tableViewController id="Tha-Ve-W3p" sceneMemberID="viewController">
@@ -63,14 +63,16 @@
                             <outlet property="delegate" destination="Tha-Ve-W3p" id="ygu-OF-wlT"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Pbx-dn-pSl"/>
+                    <tabBarItem key="tabBarItem" title="Library" id="Pbx-dn-pSl">
+                        <imageReference key="image" image="play.rectangle" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="doj-KT-rLy"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vzi-7G-ow0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707" y="1406"/>
+            <point key="canvasLocation" x="1413" y="2178"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="2Ez-Lb-UhB">
             <objects>
                 <viewController id="t3b-1v-DtE" sceneMemberID="viewController">
@@ -80,13 +82,15 @@
                         <viewLayoutGuide key="safeArea" id="onk-fB-D5a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="lvN-tZ-ocK"/>
+                    <tabBarItem key="tabBarItem" title="" id="lvN-tZ-ocK">
+                        <imageReference key="image" image="plus.circle" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lig-CH-n5H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="742" y="1406"/>
+            <point key="canvasLocation" x="1413" y="546"/>
         </scene>
-        <!--Item-->
+        <!--Subscriptions-->
         <scene sceneID="igm-jt-0FK">
             <objects>
                 <viewController id="jvN-aB-uHF" sceneMemberID="viewController">
@@ -96,13 +100,15 @@
                         <viewLayoutGuide key="safeArea" id="WtS-e8-Iy6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xtm-xO-uMx"/>
+                    <tabBarItem key="tabBarItem" title="Subscriptions" id="xtm-xO-uMx">
+                        <imageReference key="image" image="rectangle.stack" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="alo-j5-GdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-299" y="1406"/>
+            <point key="canvasLocation" x="1413" y="1290"/>
         </scene>
-        <!--Item-->
+        <!--Shorts-->
         <scene sceneID="7Gd-EF-kY5">
             <objects>
                 <tableViewController id="eYy-Xf-l5V" sceneMemberID="viewController">
@@ -125,11 +131,13 @@
                             <outlet property="delegate" destination="eYy-Xf-l5V" id="c0L-IS-KMi"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="eCM-JY-Itq"/>
+                    <tabBarItem key="tabBarItem" title="Shorts" id="eCM-JY-Itq">
+                        <imageReference key="image" image="play.tv" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KEI-wA-W8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1358" y="1406"/>
+            <point key="canvasLocation" x="1413" y="-291"/>
         </scene>
         <!--Tabbar Controller-->
         <scene sceneID="ZOw-vn-PfV">
@@ -156,6 +164,10 @@
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="play.rectangle" catalog="system" width="128" height="93"/>
+        <image name="play.tv" catalog="system" width="128" height="97"/>
+        <image name="plus.circle" catalog="system" width="128" height="121"/>
+        <image name="rectangle.stack" catalog="system" width="128" height="122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
