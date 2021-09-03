@@ -37,6 +37,7 @@ class VideoCell: UITableViewCell {
         profilePicture.layer.cornerRadius = 30
         duration.layer.cornerRadius = 5
         moreButton.setImage(UIImage(named: "more"), for: .normal)
+        moreButton.tintColor = .darkGray
     }
     
 }

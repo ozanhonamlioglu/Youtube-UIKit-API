@@ -11,6 +11,7 @@ class NewsCell: UITableViewCell {
     
     // MARK: - OUTLETS
     @IBOutlet weak var profilePicture: UIImageView!
+    @IBOutlet weak var moreButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,7 +28,8 @@ class NewsCell: UITableViewCell {
     
     private func setup() {
         profilePicture.layer.cornerRadius = 20
-        
+        moreButton.setImage(UIImage(named: "more"), for: .normal)
+        moreButton.tintColor = .darkGray
     }
     
 }

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="StoryCell" customModule="Youtube_UIKit_API" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avC-zK-QQA">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bQd-dX-RGk">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="260"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full suspension downhill bike vs hardtail riding and performance" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvw-w8-d9R">
+                                <rect key="frame" x="5" y="173.5" width="190" height="61.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="174K views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgF-oK-CCJ">
+                                <rect key="frame" x="5" y="235" width="190" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="KeA-Qb-mfA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JgF-oK-CCJ" secondAttribute="trailing" constant="5" id="BuL-2W-Ku0"/>
+                            <constraint firstAttribute="trailing" secondItem="bQd-dX-RGk" secondAttribute="trailing" id="FWj-qP-a8j"/>
+                            <constraint firstItem="bQd-dX-RGk" firstAttribute="leading" secondItem="avC-zK-QQA" secondAttribute="leading" id="OkS-N8-fg5"/>
+                            <constraint firstAttribute="bottom" secondItem="JgF-oK-CCJ" secondAttribute="bottom" constant="5" id="j8a-H9-OEJ"/>
+                            <constraint firstAttribute="trailing" secondItem="bvw-w8-d9R" secondAttribute="trailing" constant="5" id="sbn-j1-rmJ"/>
+                            <constraint firstAttribute="bottom" secondItem="bQd-dX-RGk" secondAttribute="bottom" id="uBH-IZ-6Aq"/>
+                            <constraint firstItem="bQd-dX-RGk" firstAttribute="top" secondItem="avC-zK-QQA" secondAttribute="top" id="vPV-P3-cMj"/>
+                            <constraint firstItem="JgF-oK-CCJ" firstAttribute="top" secondItem="bvw-w8-d9R" secondAttribute="bottom" id="vXo-sq-9YN"/>
+                            <constraint firstItem="JgF-oK-CCJ" firstAttribute="leading" secondItem="avC-zK-QQA" secondAttribute="leading" constant="5" id="vuU-x2-5JZ"/>
+                            <constraint firstItem="bvw-w8-d9R" firstAttribute="leading" secondItem="avC-zK-QQA" secondAttribute="leading" constant="5" id="zU3-RA-2uq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="avC-zK-QQA" secondAttribute="bottom" id="EwH-fD-72L"/>
+                <constraint firstAttribute="trailing" secondItem="avC-zK-QQA" secondAttribute="trailing" id="O0I-ds-oTV"/>
+                <constraint firstItem="avC-zK-QQA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XbD-hQ-C43"/>
+                <constraint firstItem="avC-zK-QQA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xJQ-za-RnV"/>
+            </constraints>
+            <connections>
+                <outlet property="previewImage" destination="bQd-dX-RGk" id="Q9d-3b-Kiq"/>
+                <outlet property="shortContent" destination="bvw-w8-d9R" id="EMC-W3-Kzn"/>
+                <outlet property="viewCount" destination="JgF-oK-CCJ" id="LWW-NU-eVT"/>
+            </connections>
+            <point key="canvasLocation" x="24.637681159420293" y="48.883928571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

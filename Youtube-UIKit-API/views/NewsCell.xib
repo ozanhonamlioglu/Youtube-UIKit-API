@@ -41,10 +41,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeR-CP-jVq">
-                                        <rect key="frame" x="50" y="0.0" width="369" height="50"/>
+                                        <rect key="frame" x="50" y="0.0" width="349" height="50"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="VJr-fd-Oye">
-                                                <rect key="frame" x="0.0" y="5" width="369" height="34.5"/>
+                                                <rect key="frame" x="0.0" y="5" width="349" height="34.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breaking Bad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-1N-xau">
                                                         <rect key="frame" x="0.0" y="0.0" width="87.5" height="18"/>
@@ -72,10 +72,22 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vw3-Po-TJd">
-                                        <rect key="frame" x="419" y="0.0" width="30" height="50"/>
+                                        <rect key="frame" x="399" y="0.0" width="50" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uv0-Ax-8Mb">
+                                                <rect key="frame" x="15" y="8" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="BgS-HL-gbe"/>
+                                                    <constraint firstAttribute="width" constant="20" id="W9s-xg-r2P"/>
+                                                </constraints>
+                                                <state key="normal" title="+"/>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="o1H-b5-zdL"/>
+                                            <constraint firstAttribute="width" constant="50" id="o1H-b5-zdL"/>
+                                            <constraint firstItem="uv0-Ax-8Mb" firstAttribute="centerX" secondItem="vw3-Po-TJd" secondAttribute="centerX" id="rvD-Mw-I9D"/>
+                                            <constraint firstItem="uv0-Ax-8Mb" firstAttribute="top" secondItem="vw3-Po-TJd" secondAttribute="top" constant="8" id="wkC-Ai-5cb"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -197,6 +209,7 @@
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="moreButton" destination="uv0-Ax-8Mb" id="nxp-7c-dA8"/>
                 <outlet property="profilePicture" destination="9g1-nc-xcu" id="5pi-Yu-Tjv"/>
             </connections>
             <point key="canvasLocation" x="118.11594202898551" y="222.99107142857142"/>

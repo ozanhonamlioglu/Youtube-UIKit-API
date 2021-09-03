@@ -3,19 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D3F3EFD26CEB1E5008CA290 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3EFB26CEB1E5008CA290 /* VideoCell.swift */; };
 		4D3F3EFE26CEB1E5008CA290 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F3EFC26CEB1E5008CA290 /* VideoCell.xib */; };
-		4D3F3F0126CEB1FF008CA290 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3EFF26CEB1FF008CA290 /* StoryCell.swift */; };
-		4D3F3F0226CEB1FF008CA290 /* Storycell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0026CEB1FF008CA290 /* Storycell.xib */; };
-		4D3F3F0526CEB24B008CA290 /* StoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0326CEB24B008CA290 /* StoryCollectionViewController.swift */; };
 		4D3F3F0826D2BD03008CA290 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0726D2BD03008CA290 /* MainModel.swift */; };
 		4D3F3F0C26D3A836008CA290 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0B26D3A836008CA290 /* String+Extension.swift */; };
 		4D3F3F0F26D3DD11008CA290 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0D26D3DD11008CA290 /* NewsCell.swift */; };
 		4D3F3F1026D3DD11008CA290 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F3F0E26D3DD11008CA290 /* NewsCell.xib */; };
+		4D3F3F1326DD7E04008CA290 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F3F1126DD7E04008CA290 /* StoryCell.swift */; };
+		4D3F3F1426DD7E04008CA290 /* StoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F3F1226DD7E04008CA290 /* StoryCell.xib */; };
+		4DB5B5D226E03AE3006A3C3F /* StoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5B5D126E03AE3006A3C3F /* StoryCollectionViewController.swift */; };
+		4DB5B5D526E0C53C006A3C3F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB5B5D426E0C53C006A3C3F /* Kingfisher */; };
+		4DB5B5D726E179AF006A3C3F /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5B5D626E179AF006A3C3F /* Image+Extension.swift */; };
 		BD1FA56A26C44DF4009580E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FA56926C44DF4009580E7 /* AppDelegate.swift */; };
 		BD1FA56C26C44DF4009580E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FA56B26C44DF4009580E7 /* SceneDelegate.swift */; };
 		BD1FA56E26C44DF4009580E7 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FA56D26C44DF4009580E7 /* HomeTableViewController.swift */; };
@@ -31,13 +33,14 @@
 /* Begin PBXFileReference section */
 		4D3F3EFB26CEB1E5008CA290 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		4D3F3EFC26CEB1E5008CA290 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
-		4D3F3EFF26CEB1FF008CA290 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
-		4D3F3F0026CEB1FF008CA290 /* Storycell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Storycell.xib; sourceTree = "<group>"; };
-		4D3F3F0326CEB24B008CA290 /* StoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewController.swift; sourceTree = "<group>"; };
 		4D3F3F0726D2BD03008CA290 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		4D3F3F0B26D3A836008CA290 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4D3F3F0D26D3DD11008CA290 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		4D3F3F0E26D3DD11008CA290 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		4D3F3F1126DD7E04008CA290 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		4D3F3F1226DD7E04008CA290 /* StoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCell.xib; sourceTree = "<group>"; };
+		4DB5B5D126E03AE3006A3C3F /* StoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewController.swift; sourceTree = "<group>"; };
+		4DB5B5D626E179AF006A3C3F /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		BD1FA56626C44DF4009580E7 /* Youtube-UIKit-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube-UIKit-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1FA56926C44DF4009580E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1FA56B26C44DF4009580E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB5B5D526E0C53C006A3C3F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +89,7 @@
 				BD1FA58426C44EC8009580E7 /* controllers */,
 				BD1FA58226C44EB1009580E7 /* views */,
 				BD1FA58126C44EAB009580E7 /* models */,
-				BD208C1826C4EDCB00407137 /* https */,
+				BD208C1826C4EDCB00407137 /* services */,
 				BD1FA58026C44EA3009580E7 /* utils */,
 				BD1FA56926C44DF4009580E7 /* AppDelegate.swift */,
 				BD1FA56B26C44DF4009580E7 /* SceneDelegate.swift */,
@@ -103,6 +107,7 @@
 			children = (
 				BD208C1B26C4EE8400407137 /* config.swift */,
 				4D3F3F0B26D3A836008CA290 /* String+Extension.swift */,
+				4DB5B5D626E179AF006A3C3F /* Image+Extension.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -120,10 +125,10 @@
 			children = (
 				4D3F3EFB26CEB1E5008CA290 /* VideoCell.swift */,
 				4D3F3EFC26CEB1E5008CA290 /* VideoCell.xib */,
-				4D3F3EFF26CEB1FF008CA290 /* StoryCell.swift */,
-				4D3F3F0026CEB1FF008CA290 /* Storycell.xib */,
 				4D3F3F0D26D3DD11008CA290 /* NewsCell.swift */,
 				4D3F3F0E26D3DD11008CA290 /* NewsCell.xib */,
+				4D3F3F1126DD7E04008CA290 /* StoryCell.swift */,
+				4D3F3F1226DD7E04008CA290 /* StoryCell.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -133,17 +138,17 @@
 			children = (
 				BD1FA56D26C44DF4009580E7 /* HomeTableViewController.swift */,
 				BD1FA58D26C4535F009580E7 /* TabbarController.swift */,
-				4D3F3F0326CEB24B008CA290 /* StoryCollectionViewController.swift */,
+				4DB5B5D126E03AE3006A3C3F /* StoryCollectionViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		BD208C1826C4EDCB00407137 /* https */ = {
+		BD208C1826C4EDCB00407137 /* services */ = {
 			isa = PBXGroup;
 			children = (
 				BD208C1926C4EDDE00407137 /* HomeFeedService.swift */,
 			);
-			path = https;
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +167,9 @@
 			dependencies = (
 			);
 			name = "Youtube-UIKit-API";
+			packageProductDependencies = (
+				4DB5B5D426E0C53C006A3C3F /* Kingfisher */,
+			);
 			productName = "Youtube-UIKit-API";
 			productReference = BD1FA56626C44DF4009580E7 /* Youtube-UIKit-API.app */;
 			productType = "com.apple.product-type.application";
@@ -189,6 +197,9 @@
 				Base,
 			);
 			mainGroup = BD1FA55D26C44DF4009580E7;
+			packageReferences = (
+				4DB5B5D326E0C53C006A3C3F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = BD1FA56726C44DF4009580E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,10 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D3F3F1026D3DD11008CA290 /* NewsCell.xib in Resources */,
+				4D3F3F1426DD7E04008CA290 /* StoryCell.xib in Resources */,
 				BD1FA57926C44DF5009580E7 /* LaunchScreen.storyboard in Resources */,
 				4D3F3EFE26CEB1E5008CA290 /* VideoCell.xib in Resources */,
 				BD1FA57626C44DF5009580E7 /* Assets.xcassets in Resources */,
-				4D3F3F0226CEB1FF008CA290 /* Storycell.xib in Resources */,
 				BD1FA57126C44DF4009580E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,13 +233,14 @@
 				BD1FA56E26C44DF4009580E7 /* HomeTableViewController.swift in Sources */,
 				BD1FA57426C44DF4009580E7 /* Youtube_UIKit_API.xcdatamodeld in Sources */,
 				4D3F3F0826D2BD03008CA290 /* MainModel.swift in Sources */,
-				4D3F3F0126CEB1FF008CA290 /* StoryCell.swift in Sources */,
 				4D3F3F0C26D3A836008CA290 /* String+Extension.swift in Sources */,
+				4D3F3F1326DD7E04008CA290 /* StoryCell.swift in Sources */,
+				4DB5B5D226E03AE3006A3C3F /* StoryCollectionViewController.swift in Sources */,
 				4D3F3F0F26D3DD11008CA290 /* NewsCell.swift in Sources */,
+				4DB5B5D726E179AF006A3C3F /* Image+Extension.swift in Sources */,
 				4D3F3EFD26CEB1E5008CA290 /* VideoCell.swift in Sources */,
 				BD208C1C26C4EE8400407137 /* config.swift in Sources */,
 				BD1FA56A26C44DF4009580E7 /* AppDelegate.swift in Sources */,
-				4D3F3F0526CEB24B008CA290 /* StoryCollectionViewController.swift in Sources */,
 				BD208C1A26C4EDDE00407137 /* HomeFeedService.swift in Sources */,
 				BD1FA56C26C44DF4009580E7 /* SceneDelegate.swift in Sources */,
 				BD1FA58E26C4535F009580E7 /* TabbarController.swift in Sources */,
@@ -433,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DB5B5D326E0C53C006A3C3F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DB5B5D426E0C53C006A3C3F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB5B5D326E0C53C006A3C3F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BD1FA57226C44DF4009580E7 /* Youtube_UIKit_API.xcdatamodeld */ = {
