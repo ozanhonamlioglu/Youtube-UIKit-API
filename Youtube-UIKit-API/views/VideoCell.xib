@@ -25,31 +25,11 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test-video-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Z4I-25-cyv">
                                         <rect key="frame" x="0.0" y="0.0" width="580" height="300"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zlU-ub-uSz">
-                                        <rect key="frame" x="545" y="275" width="25" height="15"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-6D-tFz">
-                                                <rect key="frame" x="3" y="1.5" width="19" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="9"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="15" id="3ZR-dx-83N"/>
-                                            <constraint firstAttribute="width" constant="25" id="JyZ-Bc-6RA"/>
-                                            <constraint firstItem="fcd-6D-tFz" firstAttribute="centerX" secondItem="zlU-ub-uSz" secondAttribute="centerX" id="bf9-cd-DXY"/>
-                                            <constraint firstItem="fcd-6D-tFz" firstAttribute="centerY" secondItem="zlU-ub-uSz" secondAttribute="centerY" id="qR3-C2-DSJ"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="zlU-ub-uSz" secondAttribute="trailing" constant="10" id="8HO-vM-1WL"/>
                                     <constraint firstItem="Z4I-25-cyv" firstAttribute="leading" secondItem="Dyy-xc-dST" secondAttribute="leading" id="Pu1-yi-d8L"/>
                                     <constraint firstAttribute="trailing" secondItem="Z4I-25-cyv" secondAttribute="trailing" id="Qem-PK-vJP"/>
-                                    <constraint firstAttribute="bottom" secondItem="zlU-ub-uSz" secondAttribute="bottom" constant="10" id="S2L-b8-3Gz"/>
                                     <constraint firstItem="Z4I-25-cyv" firstAttribute="top" secondItem="Dyy-xc-dST" secondAttribute="top" id="ZDg-Cy-D32"/>
                                     <constraint firstAttribute="height" constant="300" id="ht2-KF-hM7"/>
                                     <constraint firstAttribute="bottom" secondItem="Z4I-25-cyv" secondAttribute="bottom" id="lmC-ZF-Z2Q"/>
@@ -142,9 +122,8 @@
             <connections>
                 <outlet property="descriptionContent" destination="Vw1-uO-y74" id="oj3-4I-7d2"/>
                 <outlet property="details" destination="VGO-ff-OIe" id="aLQ-9x-njG"/>
-                <outlet property="duration" destination="zlU-ub-uSz" id="e68-Wb-mIH"/>
-                <outlet property="durationLabel" destination="fcd-6D-tFz" id="e6T-6m-kGY"/>
                 <outlet property="moreButton" destination="MFu-aZ-DNc" id="1Ed-IH-ohw"/>
+                <outlet property="previewImage" destination="Z4I-25-cyv" id="jaH-9k-UrH"/>
                 <outlet property="profilePicture" destination="R7C-PN-Hoo" id="Iou-Yn-8FU"/>
             </connections>
             <point key="canvasLocation" x="321.73913043478262" y="209.59821428571428"/>

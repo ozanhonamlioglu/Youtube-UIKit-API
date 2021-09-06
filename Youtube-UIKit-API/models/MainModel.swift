@@ -14,6 +14,7 @@ struct MainModel: Decodable {
     var views: Float?
     var timestamp: String?
     var preiewImage: String?
+    var channelImage: String?
     var duration: String?
     var data: [ShortsData]?
 }
