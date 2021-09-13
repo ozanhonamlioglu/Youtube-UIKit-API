@@ -38,7 +38,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BiA-aU-5uR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="-1185"/>
+            <point key="canvasLocation" x="1288" y="-81"/>
         </scene>
         <!--Library-->
         <scene sceneID="bbs-dF-TQH">
@@ -70,7 +70,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vzi-7G-ow0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="2178"/>
+            <point key="canvasLocation" x="-1504" y="1178"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Ez-Lb-UhB">
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lig-CH-n5H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="546"/>
+            <point key="canvasLocation" x="70" y="1178"/>
         </scene>
         <!--Subscriptions-->
         <scene sceneID="igm-jt-0FK">
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="alo-j5-GdX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="1290"/>
+            <point key="canvasLocation" x="-712" y="1178"/>
         </scene>
         <!--Shorts-->
         <scene sceneID="7Gd-EF-kY5">
@@ -137,15 +137,16 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KEI-wA-W8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="-291"/>
+            <point key="canvasLocation" x="1288" y="575"/>
         </scene>
         <!--Tabbar Controller-->
         <scene sceneID="ZOw-vn-PfV">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hLq-oo-7Sh" customClass="TabbarController" customModule="Youtube_UIKit_API" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TIc-p3-y2a">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="83"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -159,7 +160,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hkf-oh-e9O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-472" y="248"/>
+            <point key="canvasLocation" x="-717" y="247"/>
         </scene>
     </scenes>
     <resources>

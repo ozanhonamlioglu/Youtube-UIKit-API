@@ -44,4 +44,38 @@ class VideoCell: UITableViewCell {
         moreButton.tintColor = .darkGray
     }
     
+    func setupDurationLabel() {
+        let v = previewImage.viewWithTag(1)
+        
+        if(v == nil) {
+            let holder = UIView()
+            holder.tag = 1
+            holder.backgroundColor = .black
+            holder.layer.cornerRadius = 3
+            holder.translatesAutoresizingMaskIntoConstraints = false
+            
+            let label = UILabel()
+            label.text = data?.duration
+            label.font = UIFont(name: "AvenirNext-Medium", size: 12)
+            label.textColor = .white
+            label.translatesAutoresizingMaskIntoConstraints = false
+            
+            previewImage.addSubview(holder)
+            holder.addSubview(label)
+            
+            let width_of_duration_string = data!.duration!.widthOfString(usingFont: UIFont(name: "AvenirNext-Medium", size: 13)!)
+            
+            NSLayoutConstraint.activate([
+                holder.bottomAnchor.constraint(equalTo: previewImage.bottomAnchor, constant: -5),
+                holder.rightAnchor.constraint(equalTo: previewImage.rightAnchor, constant: -5),
+                holder.widthAnchor.constraint(equalToConstant: CGFloat(width_of_duration_string) + 5),
+                holder.heightAnchor.constraint(equalToConstant: 19),
+                label.centerXAnchor.constraint(equalTo: holder.centerXAnchor),
+                label.centerYAnchor.constraint(equalTo: holder.centerYAnchor)
+            ])
+        }
+
+    }
+
+    
 }

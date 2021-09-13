@@ -65,6 +65,7 @@ class HomeTableViewController: UITableViewController {
         case .video:
             let videoCell = tableView.dequeueReusableCell(withIdentifier: VideoCellReuseId, for: indexPath) as! VideoCell
             videoCell.data = singleData
+            videoCell.setupDurationLabel()
             return videoCell
             
         case .news:
