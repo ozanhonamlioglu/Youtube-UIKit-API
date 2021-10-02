@@ -21,12 +21,19 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        uiSetup()
         xibCellRegisters()
         homeFeedService.fetchHomeList()
         observers()
     }
 
     // MARK: - HANDLERS
+    private func uiSetup() {
+        tableView.showsVerticalScrollIndicator = false
+        tableView.separatorStyle = .none
+    }
+
+    
     func xibCellRegisters() {
         tableView.register(UINib(nibName: "VideoCell", bundle: nil), forCellReuseIdentifier: VideoCellReuseId)
         tableView.register(UINib(nibName: "NewsCell", bundle: nil), forCellReuseIdentifier: NewsCellReuseId)

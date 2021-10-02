@@ -27,9 +27,10 @@
 		BD1FA57426C44DF4009580E7 /* Youtube_UIKit_API.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD1FA57226C44DF4009580E7 /* Youtube_UIKit_API.xcdatamodeld */; };
 		BD1FA57626C44DF5009580E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1FA57526C44DF5009580E7 /* Assets.xcassets */; };
 		BD1FA57926C44DF5009580E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1FA57726C44DF5009580E7 /* LaunchScreen.storyboard */; };
-		BD1FA58E26C4535F009580E7 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FA58D26C4535F009580E7 /* TabbarController.swift */; };
 		BD208C1A26C4EDDE00407137 /* HomeFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD208C1926C4EDDE00407137 /* HomeFeedService.swift */; };
 		BD208C1C26C4EE8400407137 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD208C1B26C4EE8400407137 /* config.swift */; };
+		BDFB5A8726F3C1630043D0A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB5A8626F3C1630043D0A1 /* MainViewController.swift */; };
+		BDFB5A8926F3C6730043D0A1 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB5A8826F3C6730043D0A1 /* MainTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,9 +55,10 @@
 		BD1FA57526C44DF5009580E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1FA57826C44DF5009580E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1FA57A26C44DF5009580E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD1FA58D26C4535F009580E7 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 		BD208C1926C4EDDE00407137 /* HomeFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedService.swift; sourceTree = "<group>"; };
 		BD208C1B26C4EE8400407137 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		BDFB5A8626F3C1630043D0A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BDFB5A8826F3C6730043D0A1 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				BD1FA56D26C44DF4009580E7 /* HomeTableViewController.swift */,
-				BD1FA58D26C4535F009580E7 /* TabbarController.swift */,
 				4DB5B5D126E03AE3006A3C3F /* StoryCollectionViewController.swift */,
+				BDFB5A8626F3C1630043D0A1 /* MainViewController.swift */,
+				BDFB5A8826F3C6730043D0A1 /* MainTabbarController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -246,12 +249,13 @@
 				4D3F3F0F26D3DD11008CA290 /* NewsCell.swift in Sources */,
 				4DB5B5D726E179AF006A3C3F /* Image+Extension.swift in Sources */,
 				4D3F3EFD26CEB1E5008CA290 /* VideoCell.swift in Sources */,
+				BDFB5A8726F3C1630043D0A1 /* MainViewController.swift in Sources */,
+				BDFB5A8926F3C6730043D0A1 /* MainTabbarController.swift in Sources */,
 				BD208C1C26C4EE8400407137 /* config.swift in Sources */,
 				4DB5B5D926E1F3D4006A3C3F /* Header.swift in Sources */,
 				BD1FA56A26C44DF4009580E7 /* AppDelegate.swift in Sources */,
 				BD208C1A26C4EDDE00407137 /* HomeFeedService.swift in Sources */,
 				BD1FA56C26C44DF4009580E7 /* SceneDelegate.swift in Sources */,
-				BD1FA58E26C4535F009580E7 /* TabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
